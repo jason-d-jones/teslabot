@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "jason-sam-third-time"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1jkxxrqlftm9m"
+s3_prefix = "jason-sam-third-time"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["SentimentFunction=681261969843.dkr.ecr.us-west-2.amazonaws.com/jasonsamthirdtime3eab54e2/sentimentfunction35d37012repo"]
